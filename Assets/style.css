@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Section Title Styling */
+.section-title {
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+/*HEADER styling */
+
+header {
+    top: 0;
+    padding: 5px 10px;
+    background-image: url(./Images/Hero.jpg);
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    z-index: 100;
+    position: sticky;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+}
+
+.nav-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.nav-links li {
+    font-family: "Montserrat", sans-serif;
+    list-style: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+    transition: all 0.3s ease 0s;
+    padding: 1rem;
+    display: block;
+}
+
+.nav-links li a:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    transition: all 0.3s ease 0s;
+    box-shadow: whitesmoke;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
+}
+
+/* HERO STYLING */
+.hero {
+    background-image: url("./Images/Hero.jpg");
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content img {
+    display: block;
+    margin: 0px auto 10px auto;
+    border-radius: 50%;
+    border: 5px solid white;
+    height: 150px;
+    width: 150px;
+}
+
+.content h1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    color: white;
+}
+
+.content p {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    color: white;
+}
+
+/*About styling */
+
+.About {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px 10%;
+    padding: 80px 0px 50px;
+}
+
+.aboutme {
+   width: 70%;
+   
+}
+
+.aboutme h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.aboutme p {
+    text-align: center;
+    line-height: 1.9;
+    padding-bottom: 30px;
+}
+.aboutme h3{
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
+.myskills {
+    display:flex;
+    justify-content: space-around;
+}
+.myskills li {
+    display: inline;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.myskills li::before {
+    content: "▹";
+    position: absolute;
+    margin-left: -20px;
+    color: black;
+    font-size: 12px;
+    line-height: 18px;
+    
+}
+
+.aboutme button {
+    background-color: black; 
+    border-radius: 4px;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    margin: 30px auto;
+}
+
+
+
+/*Portfolio styling */
+
+.myProjects {
+    padding: 80px 0px 50px;
+    background: rgb(237,237,237);
+}
+
+.myProjects a{
+   text-decoration: none;
+   color: black;
+}
+
+.project-area {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px 10%;
+}
+
+.main-project-display {
+    border: 2px solid black;
+    margin: 5px;
+    width: 100%; 
+    height: 350px;
+    display: flex;
+    align-items: center;
+    background-image: url(./Images/runbuddy.jpg);
+    background-size: cover;
+}
+
+.project-display {
+    border: 2px solid black;
+    margin: 5px;
+    min-width: 200px;
+    flex: 1 0 40%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.main-project-display div {
+    border: 2px solid black;
+    background: rgba(0, 0, 0, .5);;
+    width: auto;
+    padding: 10px 6px 10px 2px;
+    margin-left: -2px;
+}
+
+.main-project-display div h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+
+.main-project-display div p {
+    font-size: 10px;
+    font-weight: normal;
+    font-style: italic;
+    color: rgba(255, 255, 255, 1);
+}
+
+.project-title {
+    border: 2px solid black;
+    background: rgba(0, 0, 0, .5);
+    width: auto;
+    padding: 8px 6px 8px 2px;
+    margin-left: -2px;
+}
+
+.project-title h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+
+.project-title p {
+    font-size: 10px;
+    font-weight: normal;
+    font-style: italic;
+    color: rgba(255, 255, 255, 1);
+}
+
+.image1 {
+    background-image: url(./Images/Robot.jpg);
+    background-size: cover;
+}
+
+.image2 {
+    background-image: url(./Images/Random1.jpg);
+    background-size: cover;
+}
+
+.image3 {
+    background-image: url(./Images/Random2.jpg);
+    background-size: cover;
+}
+
+.image4 {
+    background-image: url(./Images/Random3.jpg);
+    background-size: cover;
+}
+
+/* Contact Me */
+
+.contact {
+    padding: 80px 0px 50px;
+    margin: 0 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.reachout {
+    width: 70%
+}
+.reachout h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.reachout p {
+    text-align: center;
+    line-height: 1.9;
+    padding-bottom: 20px;
+}
+.email-link {
+    text-decoration: none;
+    background-color: black; 
+    border-radius: 4px;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+
+.social-icons {
+    display:table;
+    margin: 0 auto;
+}
+.social-icons li{
+    display: inline;
+}
+/* Style all font awesome icons */
+.fa {
+    font-size: 10px;
+    width: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-linkedin {
+    color: black;
+    padding-left: 9px;
+}
+
+.fa-github {
+    color: black;
+}
+
+.fa-instagram {
+    color: black;
+}
+
+.fa-facebook {
+    color: black;
+}
+
+/*Footer*/
+footer p {
+    font-size: 10px;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    /* About Me */
+ 
+    .aboutme {
+     width: 85%;    
+     }
+ 
+     .myskills li::before {
+         display: none;
+     }
+ 
+     /* Contact Me */
+ 
+     .reachout {
+         width: 85%
+     }   
+ 
+     
+ }
+ 
+ @media (max-width: 600px) {
+ 
+     /* NAVBAR */
+     
+     .toggle-button{
+         display: flex;
+     }
+ 
+     .nav-links {
+         display: none;
+         width: 100%;
+     }
+ 
+     .navbar {
+         flex-direction: column;
+         align-items: flex-start;
+     }
+ 
+     .nav-links ul {
+         width: 100%;
+         flex-direction: column;
+     }
+ 
+     .nav-links li {
+         text-align: center;
+     }
+ 
+     .nav-links li a {
+         padding: .5rem 1rem;
+     }
+ 
+     .nav-links.active{
+         display: flex;
+     }
+ 
+  
+ }   
+ 
+ 
