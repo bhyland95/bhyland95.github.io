@@ -9,3 +9,9 @@ The document includes the following sections:
 - Contact (Helps the user get in touch with me)
 
 The instructions for the project asked me to include a working navigation bar, a structured portfolio, links to my deployed projects, and make it responsive to smaller sizes. 
+
+Here is a link to my portfolio: https://bhyland95.github.io/![Capture
+
+
+This is an image of the about me section. 
+https://user-images.githubusercontent.com/84405590/128558931-44199528-b7d4-4cbc-877a-e3a627c00357.PNG)
