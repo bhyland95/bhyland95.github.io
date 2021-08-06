@@ -1,6 +1,6 @@
 # Blake Hyland's Portfoloio
 
-This document is meant to serve as a portfolio of my work and let to world know a little bit more about me. It also serves as a means of getting in touch with myself. 
+This document is meant to serve as a portfolio of my work and let the world know a little bit more about me. It also serves as a means of getting in touch with myself. 
 
 The document includes the following sections: 
 - Home (Meant to introduce the user)
