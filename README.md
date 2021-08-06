@@ -10,8 +10,9 @@ The document includes the following sections:
 
 The instructions for the project asked me to include a working navigation bar, a structured portfolio, links to my deployed projects, and make it responsive to smaller sizes. 
 
-Here is a link to my portfolio: https://bhyland95.github.io/![Capture
+Here is a link to my portfolio: https://bhyland95.github.io/
 
 
-This is an image of the about me section. 
-https://user-images.githubusercontent.com/84405590/128558931-44199528-b7d4-4cbc-877a-e3a627c00357.PNG)
+Image of about me section:
+![Capture](https://user-images.githubusercontent.com/84405590/128559077-6deb45dc-7874-4042-8b64-434b3134139d.PNG)
+
