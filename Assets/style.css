@@ -8,7 +8,7 @@
 
 /*Section Title Styling */
 .section-title {
-    font-size: 32px;
+    font-size: 44px;
     text-align: center;
     padding-bottom: 20px;
     
@@ -193,7 +193,7 @@ header {
 
 .myProjects {
     padding: 80px 0px 50px;
-    background: rgb(237,237,237);
+    background: rgb(230, 230, 230)
 }
 
 .myProjects a{
@@ -231,7 +231,7 @@ header {
 
 .main-project-display div {
     border: 2px solid black;
-    background: rgba(0, 0, 0, .5);;
+    background: rgba(0, 0, 0, .5);
     width: auto;
     padding: 10px 6px 10px 2px;
     margin-left: -2px;
@@ -250,12 +250,21 @@ header {
     color: rgba(255, 255, 255, 1);
 }
 
+.main-project-display div:hover{
+    background: rgba(0, 0, 0, 1);
+}
+
 .project-title {
     border: 2px solid black;
     background: rgba(0, 0, 0, .5);
     width: auto;
     padding: 8px 6px 8px 2px;
     margin-left: -2px;
+}
+
+.project-title:hover {
+    background: rgba(0, 0, 0, 1);
+    cursor: pointer;
 }
 
 .project-title h3 {
