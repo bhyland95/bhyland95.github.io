@@ -8,7 +8,6 @@ The document includes the following sections:
 - Projects (Displays recent and noteworthy projects ive worked on)
 - Contact (Helps the user get in touch with me)
 
-The instructions for the project asked me to include a working navigation bar, a structured portfolio, links to my deployed projects, and make it responsive to smaller sizes. 
 
 Here is a link to my portfolio: https://bhyland95.github.io/
 
